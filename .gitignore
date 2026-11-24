@@ -1,0 +1,38 @@
+# nRF5 SDK (download separately)
+SDK12/
+
+# Old version
+261119_ppg/BLE_PPG_1/
+
+# Keil build output
+_build/
+Listings/
+*.uvoptx
+*.bak
+
+# JLink
+JLinkLog.txt
+JLinkSettings.ini
+
+# Debug/flash logs
+build_log.txt
+flash_log*.txt
+flash_sd_log.txt
+
+# PPG capture data
+ppg_capture_*.csv
+
+# Python
+__pycache__/
+*.pyc
+
+# Monitor script (not uploading)
+ppg_monitor.py
+
+# Case generation scripts (not uploading)
+ppg_case/make_case.py
+ppg_case/make_case_v2.py
+ppg_case/out/
+
+# Case STL history (git handles versioning)
+case_stl/修改紀錄/
